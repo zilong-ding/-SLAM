@@ -7,7 +7,6 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   CMake that the project does not need compatibility with older versions.
 
 
--- Found OpenCV: /usr/local (found version "3.2.0") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/dzl/CLionProjects/-SLAM/opencv&ROS2.1/cmake-build-debug
