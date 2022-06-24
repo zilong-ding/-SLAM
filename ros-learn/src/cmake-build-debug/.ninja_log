@@ -1,0 +1,9 @@
+# ninja log v5
+2	1626	1655993629138404083	learn/CMakeFiles/ros-learn.dir/src/ros-learn.cpp.o	53b2ee9a102c0761
+2	1842	1655993629354407693	learn/CMakeFiles/ros-learn-listener.dir/src/ros-learn-listener.cpp.o	f784c9713fadbb5c
+2	2099	1655993629610411970	learn/CMakeFiles/ros_opencv.dir/src/ros-opencv.cpp.o	79f1ebb4c86663ec
+2	1769	1655993629282406490	learn/CMakeFiles/points_and_lines.dir/src/ros-rviz.cpp.o	c6aa2273ee054915
+2099	2398	1655993629910416983	devel/lib/learn/ros_opencv	7e89eb026ff14231
+1626	1773	1655993629286406556	devel/lib/learn/ros-learn	a857367857dc77e1
+1842	1985	1655993629498410099	devel/lib/learn/ros-learn-listener	161b5f17fe6f50b5
+1769	1921	1655993629434409029	devel/lib/learn/points_and_lines	cd8e201ef9b519eb

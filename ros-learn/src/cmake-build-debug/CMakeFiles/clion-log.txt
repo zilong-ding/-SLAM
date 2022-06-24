@@ -1,23 +1,10 @@
 /opt/clion-2022.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion-2022.1.2/bin/ninja/linux/ninja -G Ninja -S /home/dzl/CLionProjects/-SLAM/ros-learn/src -B /home/dzl/CLionProjects/-SLAM/ros-learn/src/cmake-build-debug
--- The C compiler identification is GNU 9.4.0
--- The CXX compiler identification is GNU 9.4.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Using CATKIN_DEVEL_PREFIX: /home/dzl/CLionProjects/-SLAM/ros-learn/src/cmake-build-debug/devel
 -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
 -- This workspace overlays: /opt/ros/noetic
 -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python3
 -- Using Debian Python package layout
--- Found PY_em: /usr/lib/python3/dist-packages/em.py  
 -- Using empy: /usr/lib/python3/dist-packages/em.py
 -- Using CATKIN_ENABLE_TESTING: ON
 -- Call enable_testing()
@@ -50,11 +37,17 @@ CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (c
 
 
 -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
--- Found Threads: TRUE  
 -- Using Python nosetests: /usr/bin/nosetests3
 -- catkin 0.8.10
 -- BUILD_SHARED_LIBS is on
 -- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - learn
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'learn'
+-- ==> add_subdirectory(learn)
+-- Found OpenCV: /usr/local (found suitable version "3.2.0", minimum required is "3.2.0") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/dzl/CLionProjects/-SLAM/ros-learn/src/cmake-build-debug

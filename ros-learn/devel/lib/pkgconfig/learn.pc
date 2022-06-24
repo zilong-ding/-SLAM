@@ -1,0 +1,8 @@
+prefix=/home/dzl/CLionProjects/-SLAM/ros-learn/devel
+
+Name: learn
+Description: Description of learn
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

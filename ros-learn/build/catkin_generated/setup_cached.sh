@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/dzl/CLionProjects/-SLAM/ros-learn/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/dzl/CLionProjects/-SLAM/ros-learn/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/dzl/CLionProjects/-SLAM/ros-learn/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/dzl/CLionProjects/-SLAM/ros-learn/src:$ROS_PACKAGE_PATH"
