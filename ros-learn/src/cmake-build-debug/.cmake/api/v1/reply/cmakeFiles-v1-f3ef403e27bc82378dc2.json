@@ -877,6 +877,13 @@
 		{
 			"isExternal" : true,
 			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in"
+		},
+		{
+			"path" : "learn/scripts/ros_yolo.py"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/script.py.in"
 		}
 	],
 	"kind" : "cmakeFiles",

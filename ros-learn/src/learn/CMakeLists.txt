@@ -119,7 +119,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include/learn
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -152,6 +152,16 @@ target_link_libraries(points_and_lines ${catkin_LIBRARIES})
 add_executable(ros_opencv src/ros-opencv.cpp)
 include_directories(${OpenCV_INCLUDE_DIRS})
 target_link_libraries(ros_opencv ${OpenCV_LIBS} ${catkin_LIBRARIES})
+
+add_executable(ros_opencv_listener src/ros-opencv-listener.cpp)
+include_directories(${OpenCV_INCLUDE_DIRS})
+target_link_libraries(ros_opencv_listener ${OpenCV_LIBS} ${catkin_LIBRARIES})
+
+#add_executable(ros_yolo src/yolo.cpp)
+#include_directories(${OpenCV_INCLUDE_DIRS} include/src)
+#target_link_libraries(ros_opencv_listener ${OpenCV_LIBS} ${catkin_LIBRARIES})
+
+
 ## Specify libraries to link a library or executable target against
  target_link_libraries(ros-learn
    ${catkin_LIBRARIES}
@@ -159,6 +169,14 @@ target_link_libraries(ros_opencv ${OpenCV_LIBS} ${catkin_LIBRARIES})
 target_link_libraries(ros-learn-listener
         ${catkin_LIBRARIES}
         )
+        
+        
+        
+        
+        
+catkin_install_python(PROGRAMS scripts/ros_yolo.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)       
 #############
 ## Install ##
 #############

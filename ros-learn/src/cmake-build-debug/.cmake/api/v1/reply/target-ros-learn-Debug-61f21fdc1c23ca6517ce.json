@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "devel/lib/learn/points_and_lines"
+			"path" : "devel/lib/learn/ros-learn"
 		}
 	],
 	"backtrace" : 1,
@@ -37,13 +37,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 146,
+				"line" : 139,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 147,
+				"line" : 166,
 				"parent" : 0
 			},
 			{
@@ -175,6 +175,10 @@
 			[
 				{
 					"backtrace" : 20,
+					"path" : "/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/include/learn"
+				},
+				{
+					"backtrace" : 20,
 					"path" : "/opt/ros/noetic/include"
 				},
 				{
@@ -197,7 +201,7 @@
 			]
 		}
 	],
-	"id" : "points_and_lines::@8308e82a636d926294d3",
+	"id" : "ros-learn::@8308e82a636d926294d3",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -591,8 +595,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "points_and_lines",
-	"nameOnDisk" : "points_and_lines",
+	"name" : "ros-learn",
+	"nameOnDisk" : "ros-learn",
 	"paths" : 
 	{
 		"build" : "learn",
@@ -613,7 +617,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "learn/src/ros-rviz.cpp",
+			"path" : "learn/src/ros-learn.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

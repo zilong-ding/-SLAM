@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named ros_opencv_listener
+
+# Build rule for target.
+ros_opencv_listener: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_opencv_listener
+.PHONY : ros_opencv_listener
+
+# fast build rule for target.
+ros_opencv_listener/fast:
+	$(MAKE) -f learn/CMakeFiles/ros_opencv_listener.dir/build.make learn/CMakeFiles/ros_opencv_listener.dir/build
+.PHONY : ros_opencv_listener/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -683,6 +696,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... ros_opencv_listener"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... points_and_lines"
 	@echo "... geometry_msgs_generate_messages_nodejs"

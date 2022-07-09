@@ -6,13 +6,15 @@
 			"_install",
 			"install",
 			"_catkin_package",
-			"catkin_package"
+			"catkin_package",
+			"catkin_install_python"
 		],
 		"files" : 
 		[
 			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
 			"/opt/ros/noetic/share/catkin/cmake/catkin_package.cmake",
-			"learn/CMakeLists.txt"
+			"learn/CMakeLists.txt",
+			"/opt/ros/noetic/share/catkin/cmake/catkin_install_python.cmake"
 		],
 		"nodes" : 
 		[
@@ -66,6 +68,24 @@
 				"file" : 0,
 				"line" : 13,
 				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 177,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 59,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 10
 			}
 		]
 	},
@@ -99,6 +119,16 @@
 			"paths" : 
 			[
 				"learn/package.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/learn",
+			"paths" : 
+			[
+				"cmake-build-debug/learn/catkin_generated/installspace/ros_yolo.py"
 			],
 			"type" : "file"
 		}

@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learn" TYPE FILE FILES "/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/learn" TYPE PROGRAM FILES "/home/dzl/CLionProjects/-SLAM/ros-learn/build/learn/catkin_generated/installspace/ros_yolo.py")
+endif()
+

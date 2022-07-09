@@ -1,9 +1,13 @@
 # ninja log v5
-2	1626	1655993629138404083	learn/CMakeFiles/ros-learn.dir/src/ros-learn.cpp.o	53b2ee9a102c0761
-2	1842	1655993629354407693	learn/CMakeFiles/ros-learn-listener.dir/src/ros-learn-listener.cpp.o	f784c9713fadbb5c
-2	2099	1655993629610411970	learn/CMakeFiles/ros_opencv.dir/src/ros-opencv.cpp.o	79f1ebb4c86663ec
-2	1769	1655993629282406490	learn/CMakeFiles/points_and_lines.dir/src/ros-rviz.cpp.o	c6aa2273ee054915
-2099	2398	1655993629910416983	devel/lib/learn/ros_opencv	7e89eb026ff14231
-1626	1773	1655993629286406556	devel/lib/learn/ros-learn	a857367857dc77e1
-1842	1985	1655993629498410099	devel/lib/learn/ros-learn-listener	161b5f17fe6f50b5
-1769	1921	1655993629434409029	devel/lib/learn/points_and_lines	cd8e201ef9b519eb
+2	1126	1656208652402827242	learn/CMakeFiles/ros_yolo.dir/src/yolo.cpp.o	9b41fb66eeb4322
+2797	3145	1656288185655124201	devel/lib/learn/ros_opencv_listener	49519bf0321bb3e8
+3	2796	1656288185307150075	learn/CMakeFiles/ros_opencv_listener.dir/src/ros-opencv-listener.cpp.o	fc3f7817c1ec0ec6
+2	2358	1656288184871182486	learn/CMakeFiles/ros-learn.dir/src/ros-learn.cpp.o	309ef965d7a03289
+3	1850	1656288184363220237	learn/CMakeFiles/ros-learn-listener.dir/src/ros-learn-listener.cpp.o	7153281c6db15e33
+0	886	1657288803628510563	build.ninja	c1b3d2c4b2437893
+3	2028	1656288184539207158	learn/CMakeFiles/ros_opencv.dir/src/ros-opencv.cpp.o	ab501b1103d397e9
+3	1735	1656288184247228857	learn/CMakeFiles/points_and_lines.dir/src/ros-rviz.cpp.o	5b69108de54c6e78
+2028	2347	1656288184859183377	devel/lib/learn/ros_opencv	7e89eb026ff14231
+2358	2479	1656288184991173569	devel/lib/learn/ros-learn	a857367857dc77e1
+1850	1991	1656288184503209833	devel/lib/learn/ros-learn-listener	161b5f17fe6f50b5
+1735	1880	1656288184391218156	devel/lib/learn/points_and_lines	cd8e201ef9b519eb
