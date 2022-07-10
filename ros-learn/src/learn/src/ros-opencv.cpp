@@ -45,18 +45,6 @@ int main(int argc, char** argv)
     }
     cap.release();
 }
-
-
-
-
-
-
-
-
-
-
-
-
 //    = cv::imread("/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/Gnome_G018_HD_NoLogo.png",
 //                               cv::IMREAD_COLOR);
 //    if(image.empty()){

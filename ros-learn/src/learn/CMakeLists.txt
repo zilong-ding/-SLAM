@@ -1,24 +1,28 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.16)
 project(learn)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+set(CMAKE_CXX_STANDARD 14)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+#set(OpenCV_DIR /usr/local/OpenCV/Debug/lib/cmake/opencv4)
+find_package(OpenCV 4.5.3 REQUIRED)
+set(cv_bridge_DIR /usr/local/share/cv_bridge/cmake)
 find_package(catkin REQUIRED COMPONENTS
-        cv_bridge
         image_transport
         roscpp
+        cv_bridge
         rospy
         sensor_msgs
         std_msgs
         )
-find_package(OpenCV 3.2.0 REQUIRED)
+
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
+add_definitions(-DHAVE_CUDA=1)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed

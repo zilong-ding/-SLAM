@@ -1,13 +1,13 @@
 # ninja log v5
 2	1126	1656208652402827242	learn/CMakeFiles/ros_yolo.dir/src/yolo.cpp.o	9b41fb66eeb4322
-2797	3145	1656288185655124201	devel/lib/learn/ros_opencv_listener	49519bf0321bb3e8
-3	2796	1656288185307150075	learn/CMakeFiles/ros_opencv_listener.dir/src/ros-opencv-listener.cpp.o	fc3f7817c1ec0ec6
-2	2358	1656288184871182486	learn/CMakeFiles/ros-learn.dir/src/ros-learn.cpp.o	309ef965d7a03289
-3	1850	1656288184363220237	learn/CMakeFiles/ros-learn-listener.dir/src/ros-learn-listener.cpp.o	7153281c6db15e33
-0	886	1657288803628510563	build.ninja	c1b3d2c4b2437893
-3	2028	1656288184539207158	learn/CMakeFiles/ros_opencv.dir/src/ros-opencv.cpp.o	ab501b1103d397e9
-3	1735	1656288184247228857	learn/CMakeFiles/points_and_lines.dir/src/ros-rviz.cpp.o	5b69108de54c6e78
-2028	2347	1656288184859183377	devel/lib/learn/ros_opencv	7e89eb026ff14231
-2358	2479	1656288184991173569	devel/lib/learn/ros-learn	a857367857dc77e1
-1850	1991	1656288184503209833	devel/lib/learn/ros-learn-listener	161b5f17fe6f50b5
-1735	1880	1656288184391218156	devel/lib/learn/points_and_lines	cd8e201ef9b519eb
+2899	3284	1657428044028489061	devel/lib/learn/ros_opencv_listener	90e0267f019e68c8
+4	2988	1657430168665807588	learn/CMakeFiles/ros_opencv_listener.dir/src/ros-opencv-listener.cpp.o	3c97e5666cd18dd1
+2	1651	1657430167329808346	learn/CMakeFiles/ros-learn.dir/src/ros-learn.cpp.o	bbe00b0692942148
+2	2510	1657430168189807857	learn/CMakeFiles/ros-learn-listener.dir/src/ros-learn-listener.cpp.o	12da64df04955799
+0	886	1657435558812271755	build.ninja	c1b3d2c4b2437893
+2	2081	1657430167761808100	learn/CMakeFiles/ros_opencv.dir/src/ros-opencv.cpp.o	245698f7e7874a4a
+2	2472	1657430168149807880	learn/CMakeFiles/points_and_lines.dir/src/ros-rviz.cpp.o	f8df1c4aea2e752b
+3304	3885	1657424503490804753	devel/lib/learn/ros_opencv	4dcc4d1d2d224786
+1651	1762	1657430167441808282	devel/lib/learn/ros-learn	1f206430de4dd036
+2964	3138	1657424502742816472	devel/lib/learn/ros-learn-listener	161b5f17fe6f50b5
+2404	2713	1657424502318823118	devel/lib/learn/points_and_lines	cd8e201ef9b519eb

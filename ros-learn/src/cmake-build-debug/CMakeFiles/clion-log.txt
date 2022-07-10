@@ -47,6 +47,7 @@ CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (c
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- +++ processing catkin package: 'learn'
 -- ==> add_subdirectory(learn)
+-- Found OpenCV: /usr/local (found suitable version "4.5.3", minimum required is "4.5.3") 
 -- Installing devel-space wrapper /home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/scripts/ros_yolo.py to /home/dzl/CLionProjects/-SLAM/ros-learn/src/cmake-build-debug/devel/lib/learn
 -- Configuring done
 -- Generating done

@@ -338,7 +338,7 @@ LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 NOSETESTS:FILEPATH=/usr/bin/nosetests3
 
 //The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=/usr/local/share/OpenCV
+OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
@@ -392,7 +392,7 @@ class_loader_DIR:PATH=/opt/ros/noetic/share/class_loader/cmake
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 
 //The directory containing a CMake configuration file for cv_bridge.
-cv_bridge_DIR:PATH=/opt/ros/noetic/share/cv_bridge/cmake
+cv_bridge_DIR:PATH=cv_bridge_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
@@ -447,19 +447,13 @@ gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 image_transport_DIR:PATH=/opt/ros/noetic/share/image_transport/cmake
 
 //Value Computed by CMake
-learn1_BINARY_DIR:STATIC=/home/dzl/CLionProjects/-SLAM/ros-learn/build/learn1
-
-//Value Computed by CMake
-learn1_SOURCE_DIR:STATIC=/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn1
-
-//Value Computed by CMake
 learn_BINARY_DIR:STATIC=/home/dzl/CLionProjects/-SLAM/ros-learn/build/learn
 
 //Value Computed by CMake
 learn_SOURCE_DIR:STATIC=/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/librospack.so
+lib:FILEPATH=/usr/local/lib/libcv_bridge.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/noetic/share/message_filters/cmake
@@ -469,9 +463,6 @@ message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
-
-//The directory containing a CMake configuration file for pub_sub_image_topic_pkg.
-pub_sub_image_topic_pkg_DIR:PATH=pub_sub_image_topic_pkg_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
@@ -703,7 +694,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v3.2.0(3.2.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v4.5.3(4.5.3)]
 //Details about finding PY_em
 FIND_PACKAGE_MESSAGE_DETAILS_PY_em:INTERNAL=[/usr/lib/python3/dist-packages/em.py][v()]
 //Details about finding PythonInterp

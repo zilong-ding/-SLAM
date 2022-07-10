@@ -47,7 +47,8 @@ def detector(img):
 
 
 def callback(data):
-    img = bridge.imgmsg_to_cv2(data, "bgr8")
+    bridge = CvBridge()
+    img = bridge.imgmsg_to_cv2(data, desired_encoding="passthrough")
     detector(img)
     cv2.imshow('images',img)
     cv2.waitKey(1)
@@ -64,7 +65,6 @@ def listener():
 if __name__ == '__main__':
     try:
         listener()
-
     except rospy.ROSInterruptException:
         pass
 

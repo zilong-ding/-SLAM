@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/ros_yolo.dir/src/yolo.cpp.o  -o /home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros_yolo 

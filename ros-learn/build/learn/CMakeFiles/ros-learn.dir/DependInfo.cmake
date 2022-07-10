@@ -10,6 +10,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "HAVE_CUDA=1"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"learn\""
@@ -20,8 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/include/learn"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/usr/include/opencv4"
-  "/usr/local/include/opencv"
+  "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.
