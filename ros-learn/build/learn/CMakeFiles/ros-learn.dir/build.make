@@ -95,9 +95,9 @@ ros__learn_EXTERNAL_OBJECTS =
 /home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
 /home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /opt/ros/noetic/lib/libxmlrpcpp.so
 /home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/local/lib/libcv_bridge.so
-/home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/local/lib/libopencv_core.so.4.5.3
-/home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/local/lib/libopencv_imgproc.so.4.5.3
-/home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/local/lib/libopencv_imgcodecs.so.4.5.3
+/home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/local/opencv455/lib/libopencv_core.so.4.5.5
+/home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/local/opencv455/lib/libopencv_imgproc.so.4.5.5
+/home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /usr/local/opencv455/lib/libopencv_imgcodecs.so.4.5.5
 /home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /opt/ros/noetic/lib/librosconsole.so
 /home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /opt/ros/noetic/lib/librosconsole_log4cxx.so
 /home/dzl/CLionProjects/-SLAM/ros-learn/devel/lib/learn/ros-learn: /opt/ros/noetic/lib/librosconsole_backend_interface.so

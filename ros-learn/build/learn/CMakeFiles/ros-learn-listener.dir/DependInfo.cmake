@@ -21,7 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/include/learn"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/usr/local/include/opencv4"
+  "/usr/local/opencv455/include/opencv4"
   )
 
 # Targets to which this target links.

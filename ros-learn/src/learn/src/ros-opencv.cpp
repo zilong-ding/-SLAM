@@ -23,7 +23,7 @@ int main(int argc, char** argv)
     // 第一个参数是话题的名称，第二个是缓冲区的大小（消息队列的长度发布图像消息时消息队列的长度只能是1）
     image_transport::Publisher pub = it.advertise("image", 1);
 
-    // 添加微信　xiaoqiuslambiji　可以获取图片
+
     cv::VideoCapture cap("/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/200862413-1-64.flv");
     if (!cap.isOpened())
     {

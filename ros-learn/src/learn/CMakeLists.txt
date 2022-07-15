@@ -7,8 +7,9 @@ set(CMAKE_CXX_STANDARD 14)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-#set(OpenCV_DIR /usr/local/OpenCV/Debug/lib/cmake/opencv4)
-find_package(OpenCV 4.5.3 REQUIRED)
+#set(OpenCV_DIR /usr/local)
+set(OpenCV_DIR /usr/local/opencv455/lib/cmake/opencv4)
+find_package(OpenCV 4.5.5 REQUIRED)
 set(cv_bridge_DIR /usr/local/share/cv_bridge/cmake)
 find_package(catkin REQUIRED COMPONENTS
         image_transport

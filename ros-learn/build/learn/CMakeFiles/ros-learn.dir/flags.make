@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = -DHAVE_CUDA=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"learn\"
 
-CXX_INCLUDES = -I/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/include/learn -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/dzl/CLionProjects/-SLAM/ros-learn/src/learn/include/learn -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/local/opencv455/include/opencv4 
 
